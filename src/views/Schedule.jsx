@@ -74,6 +74,7 @@ const Schedule = ({ receiveUserInfo, sendUserInfo, navigate }) => {
             </select>
             
             <AutocompleteComp
+              apiKey={process.env.REACT_APP_GOOGLE_API_KEY}
               defaultValue={separate}
               placeholder="Location (Choose An Establishment Near Your Area)"
               onPlaceSelected={(place) => {

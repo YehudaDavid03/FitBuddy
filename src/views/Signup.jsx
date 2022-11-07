@@ -139,6 +139,7 @@ const Signup = ({ receiveUserInfo, navigate }) => {
           />
           
           <AutocompleteComp
+            apiKey={process.env.REACT_APP_GOOGLE_API_KEY}
             defaultValue={separate}
             placeholder="Location"
             onPlaceSelected={(place) => {

@@ -175,6 +175,7 @@ const Account = ({ sendUserInfo, receiveUserInfo, navigate }) => {
               />
 
             <AutocompleteComp
+              apiKey={process.env.REACT_APP_GOOGLE_API_KEY}
               placeholder="Home Address"
               defaultValue={receiveUserInfo?.userAddress}
               onPlaceSelected={(place) => {
