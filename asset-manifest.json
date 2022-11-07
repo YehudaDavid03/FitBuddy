@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FitBuddy/static/css/main.1b4f5fe1.css",
+    "main.js": "/FitBuddy/static/js/main.df5311e4.js",
+    "static/media/profile-three.png": "/FitBuddy/static/media/profile-three.b50148dd24f15c751412.png",
+    "static/media/profile-two.png": "/FitBuddy/static/media/profile-two.1f8b2cd0f8b1d8bec661.png",
+    "static/media/running_image.png": "/FitBuddy/static/media/running_image.0b7467e4cb9ae4ebdd0a.png",
+    "static/media/profile-one.png": "/FitBuddy/static/media/profile-one.0646d68b918cbcd18cbd.png",
+    "index.html": "/FitBuddy/index.html",
+    "main.1b4f5fe1.css.map": "/FitBuddy/static/css/main.1b4f5fe1.css.map",
+    "main.df5311e4.js.map": "/FitBuddy/static/js/main.df5311e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b4f5fe1.css",
+    "static/js/main.df5311e4.js"
+  ]
+}
