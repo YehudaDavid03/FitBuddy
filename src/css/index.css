@@ -120,12 +120,25 @@ img {
 .home-main header {
   position: relative;
   text-align: center;
-  height: auto;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 800px) {
+  .home-main header {
+    height: 85vh;
+  }
 }
 
 .home-main header img {
   height: auto;
   opacity: .8;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 800px) {
+  .home-main header img {
+    height: 85vh;
+  }
 }
 
 .home-main header div {
