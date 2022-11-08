@@ -120,19 +120,37 @@ img {
 .home-main header {
   position: relative;
   text-align: center;
-  height: 92vh;
+  height: auto;
 }
 
 .home-main header img {
-  height: 92vh;
-  opacity: .6;
+  height: auto;
+  opacity: .8;
 }
 
 .home-main header div {
   text-align: start;
   position: absolute;
-  bottom: 50px;
+  bottom: 200px;
   left: 0%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .home-main header div {
+    bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .home-main header div {
+    bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home-main header div {
+    bottom: 50px;
+  }
 }
 
 .home-main header div * {
@@ -141,18 +159,18 @@ img {
 
 .home-main header div span {
   color: var(--secondary);
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 6px;
-  text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
+  /* text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff; */
 }
 
 .home-main header div p {
   color: var(--secondary);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   width: 60%;
-  text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
+  /* text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff; */
 }
 
 @media only screen and (max-width: 800px) {
@@ -310,7 +328,7 @@ img {
 .home-main .contact {
   width: 100%;
   padding: 2.5%;
-  background-color: var(--main);
+  background-color: var(--grey);
 
   display: flex;
   flex-direction: column;
@@ -319,7 +337,7 @@ img {
 }
 
 .home-main .contact h1 {
-  color: var(--white);
+  color: var(--secondary);
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -332,14 +350,14 @@ img {
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   border: none;
-  color: var(--white);
-  border-bottom: solid 1.25px var(--white);
+  color: var(--secondary);
+  border-bottom: solid 1.25px var(--secondary);
   outline: none;
   background-color: transparent;
 }
 
 .home-main .contact input::placeholder {
-  color: var(--white);
+  color: var(--secondary);
   opacity: 1;
 }
 
@@ -347,18 +365,18 @@ img {
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   height: 150px;
-  color: var(--white);
+  color: var(--secondary);
   line-height: 150%;
   width: 60%;
   resize: vertical;
   border: none;
-  border-bottom: solid 1.25px var(--white);
+  border-bottom: solid 1.25px var(--secondary);
   outline: none;
   background-color: transparent;
 }
 
 .home-main .contact textarea::placeholder {
-  color: var(--white);
+  color: var(--secondary);
   opacity: 1;
 }
 
@@ -369,10 +387,10 @@ img {
   outline: none;
   background-color: transparent;
   width: 60%;
-  color: var(--white);
+  color: var(--secondary);
   height: 35px;
   transition: .6s;
-  border: solid 1.25px var(--white); 
+  border: solid 1.25px var(--secondary); 
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -397,8 +415,8 @@ img {
 }
 
 .home-main .contact button:hover {
-  background-color: var(--white);
-  color: var(--main);
+  background-color: var(--secondary);
+  color: var(--grey);
 }
 
 .home-main .footer {
@@ -414,7 +432,6 @@ img {
 
 .home-main .footer p {
   color: var(--secondary);
-  text-transform: uppercase;
   letter-spacing: 6px;
   margin-bottom: 1.25%;
 } 
@@ -426,7 +443,6 @@ img {
   
   color: var(--secondary);
   font-weight: 600;
-  text-transform: uppercase;
   letter-spacing: 6px;
 } 
 
