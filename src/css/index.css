@@ -310,7 +310,7 @@ text-align: center;
 .home-main-testimonials {
   width: 100%;
   padding: 2.5%;
-  background-color: var(--grey);
+  background-color: var(--white);
 }
 
 .home-main-testimonials main {
@@ -349,12 +349,16 @@ text-align: center;
 }
 
 .home-main-testimonials main div {
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   width: 30%;
-  padding: 2.5% 2.5% 0% 2.5%;
+  padding: 2.5% 2.5% 2.5% 2.5%;
+  background-color: var(--grey);
+  height: 50vh;
+  box-shadow: 5px 10px 24px 5px var(--grey);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -390,7 +394,7 @@ text-align: center;
 .home-main-contact {
   width: 100%;
   padding: 2.5%;
-  background-color: var(--grey);
+  background-color: var(--white);
 
   display: flex;
   flex-direction: column;
