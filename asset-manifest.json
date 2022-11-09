@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/FitBuddy/static/css/main.0b224ba5.css",
-    "main.js": "/FitBuddy/static/js/main.9b57d09f.js",
-    "static/media/display.png": "/FitBuddy/static/media/display.fd58182e7a980d938b23.png",
+    "main.css": "/FitBuddy/static/css/main.3bd37874.css",
+    "main.js": "/FitBuddy/static/js/main.e161fbba.js",
+    "static/media/display.png": "/FitBuddy/static/media/display.6a9cf03a9dbd3c347506.png",
     "static/media/running_image.png": "/FitBuddy/static/media/running_image.d4728b875a2f3c5b2155.png",
     "static/media/profile-three.png": "/FitBuddy/static/media/profile-three.b50148dd24f15c751412.png",
     "static/media/profile-two.png": "/FitBuddy/static/media/profile-two.1f8b2cd0f8b1d8bec661.png",
     "static/media/profile-one.png": "/FitBuddy/static/media/profile-one.0646d68b918cbcd18cbd.png",
     "index.html": "/FitBuddy/index.html",
-    "main.0b224ba5.css.map": "/FitBuddy/static/css/main.0b224ba5.css.map",
-    "main.9b57d09f.js.map": "/FitBuddy/static/js/main.9b57d09f.js.map"
+    "main.3bd37874.css.map": "/FitBuddy/static/css/main.3bd37874.css.map",
+    "main.e161fbba.js.map": "/FitBuddy/static/js/main.e161fbba.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b224ba5.css",
-    "static/js/main.9b57d09f.js"
+    "static/css/main.3bd37874.css",
+    "static/js/main.e161fbba.js"
   ]
 }
